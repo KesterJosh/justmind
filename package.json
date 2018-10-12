@@ -1,0 +1,23 @@
+{
+  "name": "justmind",
+  "version": "1.0.0",
+  "description": "Simple JustMind Welcome Page",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cp index.html ./dist/index.html && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdbrandy/justmind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdbrandy/justmind/issues"
+  },
+  "homepage": "https://github.com/devdbrandy/justmind#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
